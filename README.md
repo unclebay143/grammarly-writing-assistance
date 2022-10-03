@@ -2,7 +2,10 @@
 
 ## Provide real-time writing assistance in your app with a few lines of code.
 
+### Read full guide [here](https://unclebigbay.com/how-to-integrate-grammarly-text-editor-sdk-into-react-app).
+
 ![image](https://user-images.githubusercontent.com/58919619/193511066-20507df1-72de-4ec6-942e-c0e2c2f47d3a.png)
+
 
 
 
