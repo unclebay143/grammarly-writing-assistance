@@ -1,70 +1,36 @@
-# Getting Started with Create React App
+# How to Integrate Grammarly Text Editor SDK into React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Provide real-time writing assistance in your app with a few lines of code.
 
-## Available Scripts
+![image](https://user-images.githubusercontent.com/58919619/193511066-20507df1-72de-4ec6-942e-c0e2c2f47d3a.png)
 
-In the project directory, you can run:
 
-### `yarn start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+## Testing the Grammarly Writing Assistance
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+In this step, we're going to test our Grammar writing assistance by writing incorrect words and sentences.
 
-### `yarn test`
+### Test 1 - Inaccurate name capitalization
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+> my name is samuel ❌
 
-### `yarn build`
+![grammarly correcting name capitalization.gif](https://cdn.hashnode.com/res/hashnode/image/upload/v1664767143427/59skIEFmr.gif)
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Test passed ✅
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+### Test 2 - Incorrect spellings
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+> grammarly is a cloud based typing asistant that helps writer to develops content with accurate spellng, punctuations and grammar within a text editors.  ❌
 
-### `yarn eject`
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+![grammarly correcting incorrect spellings in a text area](https://cdn.hashnode.com/res/hashnode/image/upload/v1664767939228/mOCl9m9GP.gif)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+Test passed ✅
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### Test 3 - Sentence Clarity
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+> It goes without saying that sometimes you can actually improve a sentence by completely eliminating words that are basically unnecessary. ❌
 
-## Learn More
+![grammarly correcting sentence clarity](https://cdn.hashnode.com/res/hashnode/image/upload/v1664771163741/PAnZowt4H.gif)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `yarn build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+Test passed ✅
